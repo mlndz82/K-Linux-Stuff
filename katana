@@ -1,3 +1,9 @@
 ktf.console
 
 show modules
+
+web/cp.finder
+
+set target (website url)
+
+run
